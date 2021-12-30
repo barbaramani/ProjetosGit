@@ -1,0 +1,20 @@
+#Faça um programa que leia algo pelo teclado e mostra na tela o seu tipo primivito
+# e todas as informações possíveis sobre ela.
+n=input('Digite algo:')
+print('Você digitou:{}'.format(n), ' e o tipo primitivo é:', type(n))
+print('Você digitou:{}'.format(n),'Só tem espaço?',n.isspace())
+print('{} É numérico?'.format(n),n.isnumeric())
+print('{} É alfanumérico?'.format(n), n.isalnum())
+print('{} É alfabético?'.format(n), n.isalpha())
+print('{} É maiúsculo?'.format(n), n.isupper())
+print('{} É mininúsculo?'.format(n), n.islower())
+print('{} Está capitalizada?'.format(n), n.capitalize())
+#dá para fazer colocando f' '
+print(f'dará certo? {n.isascii()}')
+print(n.isdecimal())
+print(n.isdigit())
+print(n.isidentifier())
+print(n.islower())
+print(n.isprintable())
+print(n.istitle())
+print(n.isalpha())
